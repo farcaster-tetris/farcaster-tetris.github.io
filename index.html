@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--
+    fc:frame meta tag makes this URL embed as a Mini App preview
+    when someone pastes it in a Farcaster cast.
+  -->
+  <meta name="fc:frame" content='
+  {
+    "version":"1",
+    "imageUrl":"https://bogatyy.github.io/farcaster-tetris/assets/tetris-card.png",
+    "button":{
+      "title":"Play Tetris",
+      "action":{
+        "type":"web",
+        "url":"https://bogatyy.github.io/farcaster-tetris/"
+      }
+    }
+  }
+  '>
+
+  <title>Farcaster Tetris</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Farcaster Tetris</h1>
+    <p>Controls: ← → ↓ (move), Q/W or ↑ (rotate), Space (hard drop)</p>
+  </header>
+
+  <canvas id="tetris" width="240" height="400"></canvas>
+  <div id="score-container">Score: <span id="score">0</span></div>
+
+  <!--
+    If you want “Sign in with Farcaster” or “Share high score,” uncomment:
+    <script type="module">
+      import { sdk } from 'https://esm.sh/@farcaster/frame-sdk';
+      // Now you can call sdk.signin() or sdk.composeCast({ ... })
+    </script>
+  -->
+
+  <script src="tetris.js"></script>
+</body>
+</html>
