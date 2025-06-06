@@ -1,8 +1,8 @@
 {
     "name": "Farcaster Tetris",
     "author": {
-      "farcaster_username": "YOUR_CASTER_USERNAME",
-      "name": "Your Name"
+      "farcaster_username": "ivanbogatyy",
+      "name": "Ivan Bogatyy"
     },
     "description": "Play a classic Tetris game inside Farcaster.",
     "version": "1.0.0",
@@ -23,5 +23,15 @@
         "header": "eyJmaWQiOjIzNDU3NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGI5YWNmYUFDZDhjMTY2NEFBNzUxNTg4ZDUxNkU1YzYzNDQ2OEQ5QmIifQ",
         "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItdGV0cmlzLmdpdGh1Yi5pbyJ9",
         "signature": "MHgyNDJiZmNkZjEwNzk3ZTVmZTdmMzk0NjVjNzBkYzdlMjczNzJmYTNiODg1OGFkOTVjOTIxMzcyNTI0YzJlNjZiNjg2YjU4Yzc2NTcwZmJhZjQ1ZmJhOWI2YTY1OGNkODgzMzI5MDIwMzUwOWUxMmQyZTY4ZWVlNWM4Mjk3MmJmZDFi"
-    }
+    },
+    "frame": {
+      "version": "1",
+      "name": "Farcaster Tetris Frame",
+      "iconUrl": "https://farcaster-tetris.github.io/assets/tetris-icon.png",
+      "homeUrl": "https://farcaster-tetris.github.io",
+      "imageUrl": "https://farcaster-tetris.github.io/assets/tetris-card.png",
+      "buttonTitle": "Play Tetris!",
+      "splashImageUrl": "https://farcaster-tetris.github.io/assets/tetris-card.png",
+      "splashBackgroundColor": "#eeccff",
+  }
 }
